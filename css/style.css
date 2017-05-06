@@ -67,7 +67,7 @@ header a:hover {
 }
 
 #intro {
-	background: url(../assets/background4.jpg);
+	background: url("../assets/background4.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -112,7 +112,7 @@ header a:hover {
 }
 
 #interests {
-	background: url(../assets/background6.png);
+	background: url("../assets/background6.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -162,7 +162,7 @@ header a:hover {
 }
 
 #projects {
-	background: url(../assets/background8.png);
+	background: url("../assets/background8.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -242,7 +242,7 @@ header a:hover {
 }
 
 #wexp {
-	background: url(../assets/background7.jpg);
+	background: url("../assets/background7.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -260,7 +260,7 @@ header a:hover {
 }
 
 #contact {
-	background: url(../assets/background9.jpg);
+	background: url("../assets/background9.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
