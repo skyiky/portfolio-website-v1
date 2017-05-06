@@ -1,72 +1,152 @@
 <!DOCTYPE html>
 <html>
-	<head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="author" content="David Zhang">
 	<title>David Zhang's Portfolio Page</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<style type="text/css">
-	.background {
-		background-image: url("../assets/background.png");
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		display: block;
-		margin: auto;
-		width: 100%;
-		height: 100%;
-		min-height: 100%;
-		z-index: -1
-	}
-	.header {
-		text-align: center;
-	}
-	.jumbotron {
-		padding-left: 
-		padding-right
-	}
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
 
-	</style>
-	</head>
-
-	<body class="body">
-		<script type="text/javascript">
-		</script>
+<body>
+	<script type="text/javascript">
+	</script>
 		<div class="container-fluid">
-			<div class="jumbotron">
-				<div class="background">
-					<div id="header">
-						<h1 id="name">David Zhang</h1>
-						<h2 id="description">3rd Year Computer Science Major, University of British Columbia</h2>
+
+		<header>
+			<div class="container">
+
+				<div id="initials">
+					<h1>David Zhang</h1>
+				</div>	
+
+				<nav id="navbar">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#contact">Interests</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section id="intro">
+			<div class="container" id="intro-items">
+				<img id="profile-picture" src="1.jpg" alt="Profile Picture">
+				<h1 id="name">David Zhang</h1>
+				<h2 id="short-desc">3rd Year Computer Science Major, University of British Columbia</h2>
+				<p id="long-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lacinia lorem, sed tristique risus. Aenean luctus libero turpis, sed venenatis arcu convallis sollicitudin. Donec et leo est. Nam sit amet turpis ut augue feugiat feugiat congue at mauris. Donec quis tempus libero, quis interdum massa. Donec luctus justo et ligula egestas tincidunt. Suspendisse congue fermentum finibus. Pellentesque suscipit luctus velit, ac hendrerit massa tincidunt cursus. Cras dignissim convallis commodo.</p>
+			</div>
+		</section>
+
+		<section id="interests">
+			<div class="container" id="interests-items">
+				<h2 class="section-name" id="interests-name">Interests</h2>
+				<div class="box1">
+					<img class="interests-img" src="overwatch.jpg">
+					<div class="info">
+						<h3>UBC eSports Overwatch Team Member<h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lacinia lorem, sed tristique risus. Aenean luctus libero turpis, sed venenatis arcu convallis sollicitudin.</p>
+					</div>
+				</div>
+					
+				<div class="box1">
+					<img class="interests-img" src="keyboard.jpg">
+					<div class="info">
+					<h3>Computers<h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lacinia lorem, sed tristique risus. Aenean luctus libero turpis, sed venenatis arcu convallis sollicitudin.</p>
 					</div>
 				</div>
 
-			<h2 id="interests">Interests</h2>
-			<ul>
-				<li>UBC eSports Overwatch Team Member</li>
-				<li>Mechanical Keyboards</li>
-				<li>Computers</li>
-			</ul>
+				<div class="box1">
+					<img class="interests-img" src="intelligence.jpg">
+					<div class="info">
+					<h3>Artificial Intelligence<h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lacinia lorem, sed tristique risus. Aenean luctus libero turpis, sed venenatis arcu convallis sollicitudin.</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-			<h2 id="projects">Projects</h2>
-			<ul>
-				<li>Airport Runway Simulator</li>
-				<li>Buses R' Us Android App</li>
-				<li>Word Frequency Analyser</li>
-			</ul>
 
-			<h2 id="workexp">Work Experience</h2>
-			<ul>
-				<li>Starbucks Barista</li>
-				<li>New Image Painting</li>
-				<li>NCIX Customer Service Representative</li>
-			</ul>
+		<h2 class="section-name">Projects</h2>
 
-			<h2 id="contact">Contact Me</h2>
-			<form>
-				<input type="text" placeholder="Enter name here"><br>
-				<input type="text" placeholder="Enter email here">
-			</form>
+		<section id="projects">
+			<div class="container" id="projects-items">
+				<div class="box2" id="p1">
+					<h3>Airport Runway Simulator<h3>
+					<img class="img-middle" src="airport.jpg">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lacinia lorem, sed tristique risus. Aenean luctus libero turpis, sed venenatis arcu convallis sollicitudin.</p>
+				</div>
 
+				<div class="box2" id="p2">
+					<h3>Buses R' Us Android App<h3>
+					<img class="img-middle" src="subway.gif">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lacinia lorem, sed tristique risus. Aenean luctus libero turpis, sed venenatis arcu convallis sollicitudin.</p>
+				</div>
+
+				<div class="box2" id="p3">
+					<h3>Word Frequency Analyser<h3>
+					<img class="img-middle" src="book.jpg">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lacinia lorem, sed tristique risus. Aenean luctus libero turpis, sed venenatis arcu convallis sollicitudin.</p>
+				</div>
+				<br style="clear: left;" />
+			</div>
+		</section>
+
+		<section id="wexp">
+			<div class="container" id="wexp-items">
+				<h2 class="section-name">Work Experience</h2>
+				<div class="box1">
+					<img class="interests-img" src="starbucks.jpg">
+					<div class="info">
+					<h3>Starbucks Barista<h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lacinia lorem, sed tristique risus. Aenean luctus libero turpis, sed venenatis arcu convallis sollicitudin.</p>
+					</div>
+				</div>
+				<div class="box1">
+					<img class="interests-img" src="painting.jpg">
+					<div class="info">
+					<h3>New Image Painting<h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lacinia lorem, sed tristique risus. Aenean luctus libero turpis, sed venenatis arcu convallis sollicitudin.</p>
+					</div>
+				</div>
+				<div class="box1">
+					<img class="interests-img" src="ncix.jpg">
+					<div class="info">
+					<h3>NCIX Customer Service Representative<h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lacinia lorem, sed tristique risus. Aenean luctus libero turpis, sed venenatis arcu convallis sollicitudin.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="container" id="contact-items">
+				<h2 id="contact-title">Contact Me</h2>
+				<div id="contact-form">
+					<form action="" method="post" class="dark-matter">
+   						<label>
+       						<input type="text" name="name" placeholder="Name" />
+    					</label>
+    					<label>
+        					<input type="email" name="email" placeholder="Email Address" />
+    					</label>
+    					<label>
+        					<textarea name="message" placeholder="Your Message"></textarea>
+    					</label> 
+						<label id="button-parent">
+        					<input type="button" class="button" value="Send" /> 
+    					</label>    
+					</form>
+				</div>
 			</div>	
-		</div>
-	</body>
+		</section>
+
+	<footer>
+	<p>David Zhang, Copyright &copy; 2017</p>
+	</footer>
+	</div>
+</body>
 </html>
